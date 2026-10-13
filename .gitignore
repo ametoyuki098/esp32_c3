@@ -1,0 +1,16 @@
+# ESP-IDF build output
+build/
+main/build/
+
+# managed components are restored from dependencies.lock / idf_component.yml
+managed_components/
+
+# editor / os
+.vscode/
+.DS_Store
+
+# local sdkconfig backups
+sdkconfig.old
+
+# local source backups
+*.bak
